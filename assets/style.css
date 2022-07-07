@@ -1,0 +1,56 @@
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #2e2e3d;
+}
+
+#weatherContent {
+    display: none;
+}
+
+.navbar {
+    height: 150px!important;
+}
+
+#cityDetail,
+#uvIndexColor,
+li {
+    color: #b5bac4!important;
+}
+
+#searchResults,
+#cityDetail,
+.card {
+    background-color: #162346!important;
+}
+
+#searchResults {
+    height: 100vh;
+}
+
+#fiveDay .card {
+    border: 1px solid white!important;
+}
+
+#searchHistory li {
+    background-color: #c4dad7;
+    color: #f8f8ff!important;
+}
+
+p {
+    color: #D9B779;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Inter', sans-serif;
+}
+
+h2, h3, h4, h5 {
+    color: #f8f8ff;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #cddacb;
+}

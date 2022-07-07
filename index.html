@@ -15,6 +15,64 @@
     <link rel="stylesheet" href="Assets/style.css">
 </head>
 
+<body>
+    <div class="container-fluid">
+        <div class="row navbar navbar-light bg-light">
+            <div class="col-10 text-center">
+                <h1>Weather Dashboard</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 bg-light pb-1 pt-1" id="searchResults">
+                <div class="row">
+                    <div class="col-10">
+                        <h4>Search for a City:</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-10">
+                        <div class="input-group">
+                            <input class="form-control" type="text" id="cityEntry"
+                                placeholder="What city are you in?"><button type="button" id="searchBtn"
+                                class="btn btn-primary"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-10">
+
+                        <ul id="searchHistory" class="list-group">
+                            <!-- append li class="list-group-item"-->
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="weatherContent" class="col-9 pb-4 pt-4">
+                <div class="row pb-3 mr-2 ml-2">
+                    <div id="cityDetail" class="col-12 border px-3 py-3">
+                        <!-- display currCity-->
+                    </div>
+                </div>
+
+                <div class="row pb-2 pt-1">
+                    <div class="col-10 ml-2">
+                        <h3>5-Day Forecast:</h3>
+                    </div>
+                </div>
+
+                <div id="fiveDay" class="row pl-2">
+                    <!-- display five day forecast-->
+                </div>
+
+            </div>
+        </div>
+
+    </div>
 
 
     <!-- bootstrap, jquery, fontawesome, and moment -->
